@@ -1,0 +1,26 @@
+modLoader="javafml" #mandatory
+loaderVersion="[39,)"
+license="MIT"
+
+[[mods]]
+modId="dashmap"
+version="${file.jarVersion}"
+displayName="DashMap"
+logoFile="dashmap.png"
+authors="AppleDash"
+description='''
+A simple, performant minimap for Minecraft.
+'''
+
+[[dependencies.dashmap]]
+    modId="forge"
+    mandatory=true
+    versionRange="[39,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.dashmap]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.1,)"
+    ordering="NONE"
+    side="BOTH"
